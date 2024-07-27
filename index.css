@@ -34,6 +34,7 @@ body {
 
 main {
     margin: 0 auto;
+    padding-bottom: 1rem;
     padding-inline: 3rem;
     width: 60vw;
     max-width: 50rem;
@@ -98,11 +99,6 @@ strong {
     padding-left: 1.5rem;
 }
 
-hr {
-    border-style: solid;
-    border-color: var(--text-color);
-}
-
 section {
     position: relative;
 }
@@ -120,7 +116,6 @@ h2 span {
 h2 {
     position: relative;
     z-index: 1;
-    margin-top: 2rem;
 }
 
 
