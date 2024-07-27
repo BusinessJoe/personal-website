@@ -8,15 +8,16 @@
         <link href="/index.css" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600" rel="stylesheet">
     </head>
     <body>
         <main>
-            <h1>Lukas Boelling</h1>
-            <em>Passionate about programming, rock climbing, and any math that makes a cool picture.</em>
+            <h1 class="name">
+                <span>Lukas Boelling</span>
+            </h1>
 
             <section>
-                <h2>Work Experience</h2>
+                <h2><span>Work Experience</span></h2>
                 <div class="experience">
                     <div class="experience-title-bar">
                         <strong class="experience-title">
@@ -30,7 +31,10 @@
                     </div>
                     <ul>
                         <li>
-                            Lead the development of the company's lab automation software.
+                            Lead the development of the lab automation software with a focus on reliability and ease of use.
+                        </li>
+                        <li>
+                            Designed and implemented internal tools to reduce experimentalists' workload, improving overall efficiency and throughput.
                         </li>
                     </ul>
                 </div>
@@ -92,28 +96,29 @@
             </section>
 
             <section>
-                <h2>Education</h2>
+                <h2><span>Education</span></h2>
                 <div class="experience">
                     <div class="experience-title-bar">
                         <strong class="experience-title">
                             <span>Bachelor of Computing Honours</span>
                             <span>Queen's University</span>
+                            <span><em>4.0 / 4.3 GPA</em></span>
                         </strong>
                         <em class="date-range">
                             <span>September 2020</span>
                             <span>present</span>
                         </em>
-                        <p>Computing, Mathematics, and Analytics Specialization <em>4.0 / 4.3 GPA</em></p>
+                        <p>Currently a fourth-year student studying computer science with a mathematics specialization.</p>
                     </div>
                 </div>
             </section>
 
             <section>
-                <h2>Projects</h2>
+                <h2><span>Projects</span></h2>
 
                 <div class="project">
                     <strong>Game Boy Emulator</strong>
-                    <a href="https://businessjoe.github.io/Gameboy-Emulator/">Link</a>
+                    <a href="https://businessjoe.github.io/Gameboy-Emulator/">Website</a>
                     <a href="https://github.com/BusinessJoe/Gameboy-Emulator">GitHub</a>
                     <p>
                         Created a client-side broswer Gameboy emulator using Rust compiled to WebAssembly.
@@ -123,7 +128,7 @@
 
                 <div class="project">
                     <strong>Full Circle</strong>
-                    <a href="https://circles-lovat.vercel.app/">Link</a>
+                    <a href="https://circles-lovat.vercel.app/">Website</a>
                     <a href="https://github.com/BusinessJoe/full-circle?tab=readme-ov-file">GitHub</a>
                     <p>
                         Created a website to algorithmically stylize images by recreating them with layered circles.
@@ -142,9 +147,9 @@
                     </p>
                 </div>
             </section>
+            <footer>
+                <hr></hr>
+            </footer>
         </main>
-        <footer>
-            <hr></hr>
-        </footer>
     </body>
 </html>
